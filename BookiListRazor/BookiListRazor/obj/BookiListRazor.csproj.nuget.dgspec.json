@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Study\\Knowledge\\ORielly\\ASP_dotnet_core_5.0\\Learning-ASP-Dotnet-Core\\BookiListRazor\\BookiListRazor\\BookiListRazor.csproj": {}
+  },
+  "projects": {
+    "D:\\Study\\Knowledge\\ORielly\\ASP_dotnet_core_5.0\\Learning-ASP-Dotnet-Core\\BookiListRazor\\BookiListRazor\\BookiListRazor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\Knowledge\\ORielly\\ASP_dotnet_core_5.0\\Learning-ASP-Dotnet-Core\\BookiListRazor\\BookiListRazor\\BookiListRazor.csproj",
+        "projectName": "BookiListRazor",
+        "projectPath": "D:\\Study\\Knowledge\\ORielly\\ASP_dotnet_core_5.0\\Learning-ASP-Dotnet-Core\\BookiListRazor\\BookiListRazor\\BookiListRazor.csproj",
+        "packagesPath": "C:\\Users\\Kundan\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Knowledge\\ORielly\\ASP_dotnet_core_5.0\\Learning-ASP-Dotnet-Core\\BookiListRazor\\BookiListRazor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kundan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
