@@ -15,5 +15,7 @@ namespace BookListRazor.Model
         public string name { get; set; }
         
         public string author { get; set; }
+
+        public string ISBN { get; set; }
     }
 }
