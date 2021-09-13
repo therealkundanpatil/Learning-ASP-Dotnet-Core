@@ -18,16 +18,16 @@
                 <table class="table table-striped border">
                     <tr class="table-secondary">
                         <th>
-                            <label asp-for="Books.FirstOrDefault().id">Book ID</label>
+                            <label asp-for="Books.FirstOrDefault().ID">ID</label>
                         </th>
                         <th>
-                            <label asp-for="Books.FirstOrDefault().name">Book Name</label>
+                            <label asp-for="Books.FirstOrDefault().Name">Name</label>
                         </th>
                         <th>
-                            <label asp-for="Books.FirstOrDefault().author">Book Author</label>
+                            <label asp-for="Books.FirstOrDefault().Author">Author</label>
                         </th>
                         <th>
-                            <label asp-for="Books.FirstOrDefault().ISBN">Book ISBN</label>
+                            <label asp-for="Books.FirstOrDefault().ISBN">ISBN</label>
                         </th>
                         <th>
 
@@ -37,13 +37,13 @@
                     {
                         <tr>
                             <td>
-                                @Html.DisplayFor(m => book.id)
+                                @Html.DisplayFor(m => book.ID)
                             </td>
                             <td>
-                                @Html.DisplayFor(m => book.name)
+                                @Html.DisplayFor(m => book.Name)
                             </td>
                             <td>
-                                @Html.DisplayFor(m => book.author)
+                                @Html.DisplayFor(m => book.Author)
                             </td>
                             <td>
                                 @Html.DisplayFor(m => book.ISBN)
