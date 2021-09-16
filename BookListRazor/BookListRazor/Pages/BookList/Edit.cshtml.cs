@@ -29,7 +29,7 @@ namespace BookListRazor.Pages.BookList
         {
             if (ModelState.IsValid)
             {
-                var BookFromDb = await _db.Book.FindAsync(Book.ID);
+                var BookFromDb = await _db.Book.FindAsync(Book.Id);
                 BookFromDb.Name = Book.Name;
                 BookFromDb.Author = Book.Author;
                 BookFromDb.ISBN = Book.ISBN;
